@@ -1,0 +1,23 @@
+@layer components {
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+.btn-primary {
+    @apply bg-catedral text-white;
+  }
+.btn-primary:hover {
+    @apply bg-black;
+  }
+.btn-danger {
+    @apply bg-red-500 text-white;
+  }
+.btn-danger:hover {
+    @apply bg-red-700;
+  }
+}
+.btn-nav {
+    @apply bg-catedral px-4 py-2 w-full text-white text-xs rounded;
+  }
+.btn-nav:hover {
+    @apply bg-black;
+  }

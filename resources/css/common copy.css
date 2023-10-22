@@ -1,0 +1,143 @@
+
+
+@layer components {
+    .container {
+        @apply max-w-7xl text-right;
+    }
+
+    .h2Post {
+        @apply pt-10 pb-10 font-bold;
+    }
+    .h2PostInfo {
+        @apply pt-4 pb-4 font-semibold;
+    }
+
+    .card {
+        @apply bg-white shadow-lg rounded overflow-hidden;
+    }
+
+    .card-body {
+        @apply px-6 py-4;
+    }
+
+    .card-title {
+        @apply text-xl text-gray-700 mb-2 leading-6;
+    }
+
+    .form-control {
+        @apply border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm;
+    }
+
+    .borderH2 {
+        @apply border-2 mb-4 p-4 mr-2 ml-2;
+    }
+
+    .form-input {
+        @apply form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+    }
+
+
+    .button-all-col {
+        @apply px-4 text-gray-700 text-base  h-12 rounded-lg  focus:outline-none bg-white shadow w-full;
+    }
+
+    .question1 {
+        @apply
+    }
+
+
+    @media(min-width:640px) {
+        .container {
+            @apply max-w-7xl;
+        }
+    }
+
+    /* @media(min-width:1024px) {
+        .container {
+            @apply px-2;
+        }
+    } */
+    .btn-visitar:hover {
+        background-color: transparent;
+        border: 3px solid transparent;
+
+    }
+
+
+
+
+   #btnScrollToTop {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+   }
+
+   .top {
+    background: #941431;
+    text-decoration:none;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    }
+    .top::after {
+        content:"\2191";
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    h2 {
+        font-weight: normal;
+        color: #941431;
+        font-size: 24px;
+
+        text-align: center;
+
+    }
+    b, strong, a {
+        color: #393838;
+    }
+    .max-h-0 {
+        max-height: 0;
+    }
+
+    h3 {
+
+        color: #941431;
+        font-size: 20px;
+        margin-bottom: 1em;
+        margin-top: 1em;
+
+    }
+    h4 {
+        color: #941431;
+        font-size: 18px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        h2 {
+            font-size: 18px;
+
+        }
+        h3 {
+            font-size: 14px;
+        }
+
+    }
+}

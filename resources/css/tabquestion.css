@@ -1,0 +1,7 @@
+@layer components {
+
+    .Qp {
+        @apply text-xl px-10 leading-relaxed;
+    }
+
+}

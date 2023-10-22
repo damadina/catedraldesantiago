@@ -1,0 +1,84 @@
+@layer components {
+    .container {
+        @apply max-w-7xl mx-auto px-4;
+    }
+
+    p {
+        @apply pb-4 leading-relaxed;
+    }
+
+
+
+    @media(min-width:640px) {
+        .container {
+            @apply px-4;
+            @apply max-w-7xl;
+        }
+    }
+
+    @media(min-width:1024px) {
+        .container {
+            @apply px-2;
+        }
+    }
+
+   #btnScrollToTop {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+   }
+
+   .top {
+    background: #941431;
+    text-decoration:none;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    width: 40px;
+    }
+    .top::after {
+        content:"\2191";
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        h2 {
+            font-size: 18px;
+
+        }
+        h3 {
+            font-size: 14px;
+        }
+
+    }
+    .form-control {
+        @apply border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm;
+    }
+
+
+    .form-input {
+        @apply form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+    }
+
+
+
+}

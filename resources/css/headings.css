@@ -1,0 +1,7 @@
+@layer base {
+
+    p {
+        @apply pb-4 leading-relaxed;
+    }
+}
+

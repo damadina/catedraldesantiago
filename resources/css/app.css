@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'common.css';
+@import 'tailwindcss/utilities';
+@import 'buttons.css';
+@import "fancybox.css";
+@import "carousel.css";
+@import "/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+

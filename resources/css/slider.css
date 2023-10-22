@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+.bodyslider {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1D212B;
+}
+
+
+.img-slider {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+    background-color:#791E0B;
+}
+
+.img-slider .slide img{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img-slider .slide .info {
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+}
+
+.img-slider .slide .info p{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px ;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
